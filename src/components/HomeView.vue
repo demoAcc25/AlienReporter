@@ -76,6 +76,7 @@
         .alien-homeview {
             .header{
                 font-size: 4em ;
+                margin-top: 10px ;
             }
         }
         .alien-button{
@@ -87,6 +88,7 @@
         .alien-homeview {
             .header{
                 font-size: 3em ;
+                margin-top: 20px ;
             }
         }
     }

@@ -272,6 +272,9 @@ import HTMLStorage from '../utility/HTMLStorage.js' ;
             width: 70%;
         }
 
+        @media only screen and (max-width: 700px) {
+            width: 90%;
+        }
         @media only screen and (max-width: 500px) {
             width: 100% ;
         }
@@ -310,6 +313,14 @@ import HTMLStorage from '../utility/HTMLStorage.js' ;
                     display: flex;
                     align-items: center;
                     box-sizing: border-box;
+
+                    @media only screen and (max-width: 1000px) {
+                        font-size: 1.2em;
+                    }
+
+                    @media only screen and (max-width: 700px) {
+                        font-size: 1em;
+                    }
 
                     .form-input-label{
                         border-right: 1px solid lightgrey;
